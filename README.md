@@ -1,4 +1,4 @@
-![release : revision 4](https://img.shields.io/badge/release-R3-519CFF.svg?style=flat-square) ![license:MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)
+![release : revision 4](https://img.shields.io/badge/release-R4-519CFF.svg?style=flat-square) ![license:MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square)
 
 #Starry-BITPT
 
