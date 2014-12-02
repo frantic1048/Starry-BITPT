@@ -494,7 +494,8 @@
 
   /*******Magic*******/
   #aaaaaa {
-    opacity: 0.7; }
+    opacity: 0.7;
+    /*display:none;*/ }
 
   /*******Magic*******/
   /*------------------*/
@@ -1155,4 +1156,39 @@
 
   #regtable .bgc1,
   #regtable td.lefttd {
-    background: none; } }
+    background: none; }
+
+  /*极速登录页面*/
+  .submitbutton {
+    color: #FFF;
+    background: none repeat scroll 0% 0% #87CEEB !important;
+    border-radius: 0.2em;
+    border-color: transparent !important;
+    box-shadow: 0px 0px 3px #FFF;
+    transition: all 0.3s ease 0s;
+    text-indent: 0 !important; }
+
+  .submitbutton:hover,
+  .submitbutton:active {
+    background: none repeat scroll 0% 0% #BA55D3 !important;
+    box-shadow: 0px 0px 5px 2px #FFF; }
+
+  .shallow,
+  .side {
+    background: none; }
+
+  .inside {
+    box-shadow: 0 0 5px #8FC7D1, 0 0 15px #8FC7D1, 0 0 20px #8FC7D1;
+    border-radius: .8em;
+    opacity: .9;
+    transition: opacity .3s ease; }
+
+  .inside:hover {
+    opacity: 1; }
+
+  .inside select,
+  .inside input[type="text"],
+  .inside input[type="password"] {
+    color: black;
+    background: white !important;
+    border: none; } }
