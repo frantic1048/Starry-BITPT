@@ -405,13 +405,19 @@
   table.fwin > tbody > tr:nth-child(2) > td:last-child {
     display: none; }
 
-  table.fwin > tbody > tr:nth-child(2) > td:nth-child(2) {
+  table.fwin > tbody > tr:nth-child(2) > td:nth-child(2),
+  .p_pop, .p_pof, .sllt {
     background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 10px white; }
+    box-shadow: 0 0 10px white;
+    border: none; }
 
   table.fwin > tbody > tr:nth-child(2) > td:nth-child(2) > h3 {
     background: #eee;
-    box-shadow: 0 10px 25px white; } }
+    box-shadow: 0 10px 25px white; }
+
+  /*@列表*/
+  #at_list {
+    box-shadow: inset 0 0 12px #c8c8c8; } }
 /*===================================================*/
 /*             source site section                   */
 /*===================================================*/
